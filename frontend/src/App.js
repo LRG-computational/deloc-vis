@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className={styles.nav}>
       <h1 className={styles.title}>
-        Visualization Tool for Energy Displacement of Electron Delocalization
+        Visualization Tool for Electron Delocalization
       </h1>
       <div className={styles.navLinks}>
         <Link to="/PNDIT" className={`${styles.navLink} ${isActive('/PNDIT')}`}>PNDIT</Link>
@@ -28,7 +28,7 @@ const NavBar = () => {
           className={styles.navLink} 
           onClick={() => setIsModalOpen(true)}
         >
-          Features & Instructions
+          Features
         </button>
       </div>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>

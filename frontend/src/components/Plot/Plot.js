@@ -150,7 +150,7 @@ function Plot({molecule, allPhis, Phi, onPointClick, currentTheta, filePath, ove
         margin: {
           l: 60,
           r: 10,
-          t: 50,
+          t: 90,
           b: 50
         },
         autosize: true,
